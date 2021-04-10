@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: calibri Light;
+}
+
+header{
+    padding: 10px 2%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    outline:none;
+}
+nav.menu-desktop ul{
+    display: inline-block;
+}
+.menu-desktop li{
+    display:inline-block;
+    color: white;
+    margin: 0 38px;
+    font-size: 14px;
+}
+.menu-desktop a{
+    color: #c4c4c4;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: 1s;
+}
+.menu-desktop a:hover{
+    color: #ffffff;
+    transition: 1s;
+}
+
+.menu-desktop .apple{
+    max-width: 20px;
+    cursor: pointer;
+}
+.menu-desktop img.search{
+    margin-right: 70px;
+    max-width: 20px;
+    cursor: pointer;
+}
+.menu-desktop img.bag{
+    max-width: 20px;
+    cursor: pointer;
+}
+section.tv{
+    text-align: center;
+    color: #1d1d1f;
+    background: linear-gradient(180deg, #c5c9cd 50%, #bec3c7 100%);
+    padding: 150px 0 0;
+}
+section.tv h1{
+    font-size: 80px;
+    line-height: 1.05;
+    font-weight: 700;
+    letter-spacing: -.015em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Arial",sans-serif;
+    margin: 35px 0;
+}
+section.tv h3{
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 500;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Arial",sans-serif;
+}
+section.tv img{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: -3.9px;
+    max-width: 680px;
+}
+
+
+section.demo{
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+    background-color: #36383f;
+    background: radial-gradient(ellipse at center, #36383f 0%, #1a1d22 60%, #000 90%);
+}
+section.demo h1{
+    font-size: 80px;
+    line-height: 1.05;
+    font-weight: 700;
+    letter-spacing: -.015em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Arial",sans-serif;
+}
+section.demo h3{
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    margin: 10px 0;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Arial",sans-serif;
+}
+section.demo img.src{
+    display: inline-block;
+    width: 153px;
+    height: 42px;
+    background-size: 153px 42px;
+    margin: 20px 0;
+}
+section.demo img{
+    display: inline-block;
+    max-width: 500px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.links-compra{
+    margin: 25px 0;
+}
+.links-compra a{
+    font-size:19px;
+    margin: 5px 15px;
+    text-decoration: none;
+    outline: none;
+}
+.links-compra .comprar{
+    background-color:#0071e3;
+    color: white;
+    padding: 10px 17px;
+    border-radius: 22px;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+.links-compra .comprar:hover{
+    background-color: #266fb8;
+}
+.links-compra .mais{
+    color: #2997ff;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+.links-compra .mais:hover{
+    color:#266fb8;
+}
+.links-compra .mais i{
+    font-size:15px
+}
+.links-compra .saiba{
+    color: #2997ff;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+.links-compra .saiba i{
+    font-size:15px
+}
+
+section.max{
+    text-align: center;
+}
+section.max img{
+   max-width: 100%;
+}
+section.max .top-itens{
+    padding: 15px 2%;
+    background-color: rgb(0, 0, 0);
+    background: linear-gradient(180deg, #000000f9 1px, #000000e7 20%, #0000009f 50%, #00000000 100%);
+    text-align: center;
+    outline:none;
+}
+nav.menu-max ul{
+    display: inline-block;
+}
+nav.menu-max li{
+    display:inline-block;
+    color: rgb(0, 0, 0);
+    margin: 0 38px;
+}
+nav.menu-max li h1,h4{
+    color: white;
+    font-size: 25px;
+    margin: 5px 0;
+}
+nav.menu-max li a.link{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+}
+nav.menu-max li a.link:hover{
+    color:#0071e3;
+}
+nav.menu-max li a.back{
+    text-decoration: none;
+    color: white;
+    background-color: #266fb8;
+    padding: 5px 15px;
+    border-radius: 20px;
+}

@@ -1,0 +1,75 @@
+.menu-mobile{
+    display: none;
+}
+.menu-mobile .btn-close{
+    display: none;
+}
+@media screen and (max-width: 1080px){
+    .menu-desktop{
+        display:none;
+    }
+    .menu-mobile{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu-mobile i{
+        transition: 1s;
+    }
+    .menu-mobile i:hover{
+        color: white;
+        transition: 1s;
+    }
+
+    .btn-close{
+        color:  #c4c4c4;
+        cursor: pointer;
+        z-index:2;
+        font-size: 20px;
+        outline: none;
+    }
+    .menu-mobile .btn-menu{
+        color:  #c4c4c4;
+        cursor: pointer;
+        z-index:2;
+        font-size: 20px;
+        outline: none;
+    }
+    .menu-mobile .btn-apple{
+        color:  #c4c4c4;
+        cursor: pointer;
+        z-index:2;
+        font-size: 20px;
+        outline: none;
+    }
+    .menu-mobile img.bag-mobile{
+        max-height: 20px;
+        cursor: pointer;
+        z-index: 2;
+        outline: none;
+    }
+
+    .menu-mobile a{
+        text-decoration: none;
+        color: #c4c4c4;
+    }
+    .iens-mobile{
+        height: 0px;
+        overflow: hidden;
+        transition: 1s;
+        position: absolute;
+        left: 0;
+        top: 40;
+        background-color: rgb(0, 0, 0);
+        width:100%;
+        text-align: left;
+        padding: 18px;
+        list-style: none;
+    }
+    .iens-mobile li{
+        padding: 17px 0;
+        border-bottom: 1px solid rgba(255,255,255,0.3);
+    }
+    .iens-mobile a{
+        text-decoration: none;
+    }
+}
